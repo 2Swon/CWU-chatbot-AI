@@ -19,9 +19,8 @@ jobs:
 
     - name: Build and Push Docker Image
       run: |
-        docker build -t yourusername/cwu-ai:latest ./path/to/Dockerfile
-        docker push yourusername/cwu-ai:latest
-        # cwu-front에 대해서도 동일한 단계를 반복
+        docker build -t 2swon/cwu-ai:latest /CWU-chatbot-AI
+        docker push 2swon/cwu-ai:latest
 
     - name: Deploy to EC2
       uses: appleboy/ssh-action@master
