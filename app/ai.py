@@ -4,14 +4,17 @@ from langchain.chains import GraphCypherQAChain
 from langchain_community.graphs import Neo4jGraph
 from langchain_openai import ChatOpenAI
 from langchain.prompts.prompt import PromptTemplate
-
+import os
 app = FastAPI()
 
 class QuestionRequest(BaseModel):
     question: str
 
-# 그래프 및 체인 객체 설정
-graph = Neo4jGraph(url="bolt://localhost:7687", username="neo4j", password="12341234")
+neo4j_url = os.getenv("NEO4J_URL")
+neo4j_username = os.getenv("NEO4J_USERNAME")
+neo4j_password = os.getenv("NEO4J_PASSWORD")
+
+graph = Neo4jGraph(url=neo4j_url, username=neo4j_username, password=neo4j_password)
 
 CYPHER_GENERATION_TEMPLATE = """
 Task: Generate Cypher statement to query a graph database.
