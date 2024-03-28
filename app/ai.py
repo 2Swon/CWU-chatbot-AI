@@ -9,6 +9,7 @@ app = FastAPI()
 
 class QuestionRequest(BaseModel):
     question: str
+    
 neo4j_url = os.getenv("NEO4J_URL")
 neo4j_username = os.getenv("NEO4J_USERNAME")
 neo4j_password = os.getenv("NEO4J_PASSWORD")
