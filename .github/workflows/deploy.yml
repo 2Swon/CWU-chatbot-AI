@@ -29,6 +29,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         script: |
-          cd path/to/your/project
+          cd /home/ubuntu
           docker-compose pull
           docker-compose up -d
