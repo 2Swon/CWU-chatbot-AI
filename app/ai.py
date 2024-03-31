@@ -7,7 +7,6 @@ from langchain.prompts.prompt import PromptTemplate
 import os
 app = FastAPI()
 
-
 class QuestionRequest(BaseModel):
     question: str
     
