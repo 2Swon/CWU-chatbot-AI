@@ -409,7 +409,7 @@ MERGE (courseRegistration)-[:HAS_CREDIT_CRITERIA]->(courserCreditCriteria)
 MERGE (courseRegistration)-[:HAS_EXCESS_CONDITION]->(courserExcessCondition)
 MERGE (courseRegistration)-[:HAS_REGISTRATION_METHOD]->(courserMethod)
 
-CREATE (cancellationDetail:EnrollmentDetailDescription {name: "폐강 상세 기준", description: "수강신청 기간 종료 후 수강신청 인원이 전공 10명, 교양 20명 미만인 교과목은 폐강(수강신청 정정 기간에 타 교과목 수강신청)"})
+CREATE (cancellationDetail:EnrollmentDetailDescription {name: "폐강 상세 기준", description: "폐강 기준은 수강신청 기간 종료 후 수강신청 인원이 전공 10명, 교양 20명 미만인 교과목은 폐강(수강신청 정정 기간에 타 교과목 수강신청)"})
 CREATE (cccsemesterCredits:CreditCriteriaDetail {name: "한 학기 학점 기준", detail: "12~18학점"})
 CREATE (cccannualCredits:CreditCriteriaDetail {name: "한 학년도 학점 기준", detail: "42학점"})
 CREATE (cccnotes:CreditCriteriaDetail {name: "비고", detail: "재수강과목과 전공/교양 Pass과목도 수강신청 학점에 포함, 졸업학기는 한 과목 이상으로 신청(계절학기 제외)"})
@@ -427,8 +427,8 @@ MERGE (courserExcessCondition)-[:APPLIES_TO_2017]->(ceccondition2017)
 MERGE (courserExcessCondition)-[:APPLIES_TO_2016]->(ceccondition2016)
 MERGE (courserExcessCondition)-[:NOTES_FOR_EXCEPTION]->(cecnotesException)
 MERGE (courseRegistration)-[:OPERATES]->(registerCourses)
-MERGE (courserMethod)-[:DETAILS]->(websiteMethod)
-MERGE (courserMethod)-[:DETAILS]->(mobileMethod)
+MERGE (courserMethod)-[:PC_DETAILS]->(websiteMethod)
+MERGE (courserMethod)-[:MOBILE_DETAILS]->(mobileMethod)
 
 CREATE (withdrawalLocation:WithdrawalDetail {name: "수강철회장소", detail: "교무연구(교학)처(홍성-대학본부 129호, 인천-112호)"})
 CREATE (withdrawalProcedure:WithdrawalDetail {name: "수강철회절차", detail: "해당 교과목 담당 교수와 상의하여 교무연구(교학)처에 수강과목철회 신청
@@ -439,9 +439,9 @@ CREATE (withdrawalCriteria:CourseWithdrawalDetail {name: "수강철회 기준", 
 
 MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PERIOD]->(withdrawalPeriod)
 MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_LOCATION]->(withdrawalLocation)
-MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PROCEDURE]->(withdrawalProcedure)
-MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PROCEDURE]->(withdrawalDocument)
-MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PROCEDURE]->(withdrawalCriteria)
+MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PROCEDURE_PROCEDURE]->(withdrawalProcedure)
+MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PROCEDURE_DOCUMENT]->(withdrawalDocument)
+MERGE (courseWithdrawal)-[:HAS_WITHDRAWAL_PROCEDURE_CRITERIA]->(withdrawalCriteria)
 
 CREATE (doublemTargetDepartment:DoubleMajorDetail {name: "대상학과", detail: "복수전공, 부전공: 복수전공 및 부전공의 이수 대상학부(과)는 동일캠퍼스 내 개설된 모든 학부(과)를 원칙으로 한다. 단, 보건의료계열학과는 대상학부(과)에서 제외한다."})
 CREATE (doublemQualification:DoubleMajorDetail {name: "다전공이수자격", detail: "이수자격에 제한을 두지 않으나 편입생은 편입학한 학부(과)의 전공과목을 35학점 이상 추가로 이수하여야 자격이 주어진다"})
@@ -491,10 +491,10 @@ MERGE (volunteeringRequirement)-[:RECOGNIZES_SERVICE]->(volunteeringrServiceReco
 MERGE (volunteeringRequirement)-[:REQUIRES_CERTIFICATE_SUBMISSION]->(volunteeringrCertificateSubmissionMethod)
 MERGE (volunteeringRequirement)-[:EVALUATES]->(volunteeringrEvaluation)
 
-CREATE (courseeMidTermEvaluationMethod:LectureEvaluationDetail {name: "중간강의평가실시시간방법", detail: "PC(Web): 통합정보시스템 ⇨ 수강 ⇨ 중간강의평가시행, 모바일(Application): 학생시스템 ⇨ 수업정보 ⇨ 중간강의평가"})
-CREATE (courseeFullTermEvaluationMethod:LectureEvaluationDetail {name: "전체강의평가실시기간방법", detail: "PC(Web): 통합정보시스템 ⇨ 수강 ⇨ 강의평가입력, 모바일(Application): 학생시스템 ⇨ 수업정보 ⇨ 강의평가"})
-CREATE (courseeEvaluationUsage:LectureEvaluationDetail {name: "강의평가활용", detail: "수업 진행에 대한 학생들의 피드백을 확인함으로써 수업 개선 정보로 활용, 교수님 업적평가 및 다음 학기 수업개설에 중요한 자료로 활용, 학과 및 우리 대학 수업의 질을 높이는 데 활용"})
-CREATE (courseeEvaluationNotice:LectureEvaluationDetail {name: "강의평가유의사항", detail: " 강의평가를 미 실시한 학생은 성적확인 및 수강신청이 제한, 강의평가는 응답 저장 후 조회나 수정이 불가능, 문항을 끝까지 읽고 해당 수업의 운영, 방법, 효과 등에 대해 신중하게 평가, 본 강의평가의 응답 내용은 익명이 보장"})
+CREATE (courseeMidTermEvaluationMethod:CourseEvaluationDetail {name: "중간강의평가실시시간방법", detail: "PC(Web): 통합정보시스템 ⇨ 수강 ⇨ 중간강의평가시행, 모바일(Application): 학생시스템 ⇨ 수업정보 ⇨ 중간강의평가"})
+CREATE (courseeFullTermEvaluationMethod:CourseEvaluationDetail {name: "전체강의평가실시기간방법", detail: "PC(Web): 통합정보시스템 ⇨ 수강 ⇨ 강의평가입력, 모바일(Application): 학생시스템 ⇨ 수업정보 ⇨ 강의평가"})
+CREATE (courseeEvaluationUsage:CourseEvaluationDetail {name: "강의평가활용", detail: "수업 진행에 대한 학생들의 피드백을 확인함으로써 수업 개선 정보로 활용, 교수님 업적평가 및 다음 학기 수업개설에 중요한 자료로 활용, 학과 및 우리 대학 수업의 질을 높이는 데 활용"})
+CREATE (courseeEvaluationNotice:CourseEvaluationDetail {name: "강의평가유의사항", detail: " 강의평가를 미 실시한 학생은 성적확인 및 수강신청이 제한, 강의평가는 응답 저장 후 조회나 수정이 불가능, 문항을 끝까지 읽고 해당 수업의 운영, 방법, 효과 등에 대해 신중하게 평가, 본 강의평가의 응답 내용은 익명이 보장"})
 
 MERGE (courseEvaluation)-[:CONDUCTS_MIDTERM_EVALUATION]->(courseeMidTermEvaluationMethod)
 MERGE (courseEvaluation)-[:CONDUCTS_FULLTERM_EVALUATION]->(courseeFullTermEvaluationMethod)
