@@ -1,6 +1,6 @@
-# 청운대학교 챗봇 AI (CWU-chatbot-AI)
+# 대학교 챗봇 AI (CWU-chatbot-AI)
 
-이 프로젝트는 청운대학교 정보를 제공하는 그래프 기반 챗봇 시스템입니다. 두 가지 접근 방식 (LangChain과 GraphRAG)을 구현하고 비교하여 그래프 기반 RAG(Retrieval-Augmented Generation) 시스템의 성능을 향상시키는 방법을 연구합니다.
+이 프로젝트는 대학교 정보를 제공하는 그래프 기반 챗봇 시스템입니다. 두 가지 접근 방식 (LangChain과 GraphRAG)을 구현하고 비교하여 그래프 기반 RAG(Retrieval-Augmented Generation) 시스템의 성능을 향상시키는 방법을 연구합니다.
 
 ## 주요 기능
 
@@ -70,7 +70,7 @@ CWU-chatbot-AI/
 
 ### 웹 앱 기능
 
-* 청운대학교 관련 질문하고 답변 받기
+* 대학교 관련 질문하고 답변 받기
 * LangChain 모델과 GraphRAG 모델 중 선택하여 사용
 * 두 모델의 응답 비교 가능
 * 성능 평가 탭에서 RAGAS 메트릭을 통한 모델 성능 평가 가능
@@ -93,12 +93,4 @@ RAGAS 프레임워크를 사용하여 다음 메트릭으로 성능을 평가합
 4. 브랜치 푸시 (`git push origin feature/amazing-feature`)
 5. Pull Request 오픈
 
-## 라이선스
 
-이 프로젝트는 MIT 라이선스 하에 배포됩니다. 자세한 내용은 `LICENSE` 파일을 참조하세요.
-
-## 연락처
-
-프로젝트 관리자 - 이메일 주소
-
-프로젝트 링크: [https://github.com/yourusername/CWU-chatbot-AI](https://github.com/yourusername/CWU-chatbot-AI)
