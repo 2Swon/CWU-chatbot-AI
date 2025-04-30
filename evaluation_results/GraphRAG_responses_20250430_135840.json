@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Where are the main campus locations of Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are some of the key facilities available at Chungwoon University's campus?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Which departments offer undergraduate programs at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What graduate programs are available at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How can I apply to Chungwoon University, and what documents are needed for admission?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the academic calendar for Chungwoon University, including start and end dates for semesters?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there any special programs or courses for international students at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "청운대학교에는 국제 학생들을 위한 특별 프로그램이나 과정이 있습니다. 더 자세한 정보는 [여기](https://cwuis.chungwoon.ac.kr/lecture/)에서 확인하실 수 있습니다. 추가적인 질문이 있으시면 언제든지 말씀해 주세요!",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What student services are available to help with academic advising and career planning at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Does Chungwoon University offer counseling and mental health support for students?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the accommodation options for students at Chungwoon University, and how can I apply for a dormitory?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How can students obtain their student ID card at Chungwoon University?",
+    "answer": "청운대학교의 신입생 및 재학생은 학생증을 발급받아야 합니다. 학생증은 모바일 학생증과 은행 연계 ID카드 학생증 두 가지 형태로 제공됩니다. 학생증을 소지하지 않으면 수강, 시험, 도서관 열람실 출입, 도서 대출 등의 혜택을 받을 수 없으므로 항상 소지해야 합니다. 만약 학생증을 분실하거나 훼손된 경우에는 학생처에서 재발급을 받을 수 있습니다. \n\n추가적인 정보가 필요하시다면 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "청운대학교의 신입생 및 재학생은 학생증을 발급받아야 합니다. 학생증은 모바일 학생증과 은행 연계 ID카드 학생증 두 가지 형태로 제공됩니다. 학생증을 소지하지 않으면 수강, 시험, 도서관 열람실 출입, 도서 대출 등의 혜택을 받을 수 없으므로 항상 소지해야 합니다. 만약 학생증을 분실하거나 훼손된 경우에는 학생처에서 재발급을 받을 수 있습니다.",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Is there parking available for students on campus, and what are the regulations?",
+    "answer": "청운대학교 캠퍼스 내에는 학생들을 위한 주차 공간이 마련되어 있습니다. 일반 주차의 경우, 주차 요금은 30분에 2000원이며, 15분 이내에 출차할 경우 무료입니다. 추가적인 규정이나 세부사항에 대해서는 현재 제공된 정보가 부족합니다. 다른 질문이 있으시면 말씀해 주세요!",
+    "contexts": [
+      "청운대학교 캠퍼스 내에는 학생들을 위한 주차 공간이 마련되어 있습니다. 일반 주차의 경우, 주차 요금은 30분에 2000원이며, 15분 이내에 출차할 경우 무료입니다. 추가적인 규정이나 세부사항에 대해서는 현재 제공된 정보가 부족합니다. 다른 질문이 있으시면 말씀해 주세요!",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What extracurricular activities and clubs can students join at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University support students with disabilities or special needs?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the dining options available on the Chungwoon University campus?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there any scholarships or financial aid programs available at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How can students participate in exchange programs or study abroad opportunities through Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What online resources and platforms does Chungwoon University provide for remote learning?",
+    "answer": "청운대학교는 원격 학습을 지원하기 위해 다양한 온라인 리소스와 플랫폼을 제공합니다. 다음은 주요 리소스들입니다:\n\n1. **대표홈페이지**: [청운대학교 대표홈페이지](https://home.chungwoon.ac.kr/home/index.do)에서 학교의 전반적인 정보를 확인할 수 있습니다.\n2. **수강신청**: [수강신청 사이트](https://cwuis.chungwoon.ac.kr/lecture/)를 통해 강의를 신청할 수 있습니다.\n3. **이클래스**: [이클래스](https://cyber.chungwoon.ac.kr/ilos/main/main_form.acl)는 온라인 강의를 수강할 수 있는 플랫폼입니다.\n4. **통합로그인**: [통합로그인](https://login.chungwoon.ac.kr/login.do?sso=ok)을 통해 다양한 학교 서비스에 접근할 수 있습니다.\n5. **CEP**: [CEP](https://cep.chungwoon.ac.kr/clientMain/a/t/mainRenewal.do)는 학생들의 커리어 개발을 지원하는 플랫폼입니다.\n6. **증명서발급센터**: [증명서발급센터](https://cwunet.certpia.com/)에서 각종 증명서를 발급받을 수 있습니다.\n\n이 외에 추가적인 정보가 필요하시면 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "청운대학교는 원격 학습을 지원하기 위해 다양한 온라인 리소스와 플랫폼을 제공합니다. 다음은 주요 리소스들입니다:\n\n1. **대표홈페이지**: [청운대학교 대표홈페이지](https://home.chungwoon.ac.kr/home/index.do)에서 학교의 전반적인 정보를 확인할 수 있습니다.\n2. **수강신청**: [수강신청 사이트](https://cwuis.chungwoon.ac.kr/lecture/)를 통해 강의를 신청할 수 있습니다.\n3. **이클래스**: [이클래스](https://cyber.chungwoon.ac.kr/ilos/main/main_form.acl)는 온라인 강의를 수강할 수 있는 플랫폼입니다.\n4. **통합로그인**: [통합로그인](https://login.chungwoon.ac.kr/login.do?sso=ok)을 통해 다양한 학교 서비스에 접근할 수 있습니다.\n5. **CEP**: [CEP](https://cep.chungwoon.ac.kr/clientMain/a/t/mainRenewal.do)는 학생들의 커리어 개발을 지원하는 플랫폼입니다.\n6. **증명서발급센터**: [증명서발급센터](https://cwunet.certpia.com/)에서 각종 증명서를 발급받을 수 있습니다.\n\n이 외에 추가적인 정보가 필요하시면 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How do students access library services and resources at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the process for reporting concerns or issues with campus facilities at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "LangChain": {
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0,
+    "context_precision": 0.0,
+    "context_recall": 0.0
+  },
+  "GraphRAG": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.13730449290554123,
+    "context_precision": 0.09999999999,
+    "context_recall": 0.7777777777777778
+  },
+  "diff": {
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.13730449290554123,
+    "context_precision": 0.09999999999,
+    "context_recall": 0.7777777777777778
+  }
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Where are the main campus locations of Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are some of the key facilities available at Chungwoon University's campus?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Which departments offer undergraduate programs at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What graduate programs are available at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How can I apply to Chungwoon University, and what documents are needed for admission?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the academic calendar for Chungwoon University, including start and end dates for semesters?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there any special programs or courses for international students at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What student services are available to help with academic advising and career planning at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Does Chungwoon University offer counseling and mental health support for students?",
+    "answer": "Chungwoon University does not offer counseling and mental health support for students.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the accommodation options for students at Chungwoon University, and how can I apply for a dormitory?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How can students obtain their student ID card at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Is there parking available for students on campus, and what are the regulations?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What extracurricular activities and clubs can students join at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University support students with disabilities or special needs?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the dining options available on the Chungwoon University campus?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there any scholarships or financial aid programs available at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How can students participate in exchange programs or study abroad opportunities through Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What online resources and platforms does Chungwoon University provide for remote learning?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How do students access library services and resources at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the process for reporting concerns or issues with campus facilities at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  }
+]

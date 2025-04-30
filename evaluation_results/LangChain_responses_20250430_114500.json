@@ -1,0 +1,202 @@
+[
+  {
+    "question": "청운대학교 캠퍼스는 어디에 위치하고 있나요?",
+    "answer": "저는 그 질문에 대한 답변을 알 수 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교에는 어떤 학과들이 있나요?",
+    "answer": "저는 그 질문에 대한 답변을 알 수 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "학교 내 기숙사의 시설은 어떻게 되어 있나요?",
+    "answer": "제가 알기로는 학교 내 기숙사의 시설에 대한 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교의 입학 일정은 어떻게 되나요?",
+    "answer": "제가 알기로는 청운대학교의 입학 일정에 대한 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "캠퍼스 내 주차 시설을 이용하려면 어떻게 해야 하나요?",
+    "answer": "제공된 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교에서 제공하는 교육 프로그램은 어떤 것이 있나요?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교 학사 일정은 어디에서 확인할 수 있나요?",
+    "answer": "저는 그 정보를 알지 못합니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "학생증 발급 절차는 어떻게 진행되나요?",
+    "answer": "직접 학생처를 방문하여 재발급신청서 작성(증명사진 1장, 신분증)을 통해 학생증 발급 절차가 진행됩니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교에서 제공하는 학생 지원 서비스는 어떤 것이 있나요?",
+    "answer": "제공된 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "캠퍼스 내에서 식사를 할 수 있는 시설은 무엇이 있나요?",
+    "answer": "인천캠퍼스, 홍성캠퍼스, 청운학사(기숙사)에서 식사를 할 수 있는 시설이 있습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교의 학과별로 제공하는 전공 과목은 어떤 것들이 있나요?",
+    "answer": "Error: {code: Neo.ClientError.Statement.SyntaxError} {message: Variable `course` not defined (line 2, column 42 (offset: 236))\n\"RETURN department.name, COLLECT(DISTINCT course.name) as MajorSubjects\"\n                                          ^}",
+    "contexts": [
+      ""
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교에 입학하려면 어떤 서류가 필요한가요?",
+    "answer": "Error: {code: Neo.ClientError.Statement.SyntaxError} {message: Variable `TransferDetail` not defined (line 2, column 8 (offset: 174))\n\"RETURN TransferDetail.detail\"\n        ^}",
+    "contexts": [
+      ""
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "기숙사 신청은 언제 어떻게 할 수 있나요?",
+    "answer": "제가 알기로는 기숙사 신청은 학교 웹사이트나 학교 관리부서를 통해 온라인으로 제출할 수 있습니다. 자세한 정보는 학교 웹사이트를 확인해보시는 것이 좋을 것 같아요.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "학교 내 도서관 운영 시간은 언제인가요?",
+    "answer": "Error: {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input '': expected a node label/relationship type name, '$', '%' or '(' (line 1, column 15860 (offset: 15859))\n\"MATCH (:University)-[:HAS_CAMPUS]->(campus:Campus)-[:INCLUDES_LIBRARY]->(:Library)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_ROLE]->(:Role)-[:HAS_PHONE_NUMBER]->(:PhoneNumber)-[:HAS_DESCRIPTION]->(:Description)-[:HAS_FACULTY]->(:Faculty)-[:HAS_PHONE_NUMBER]->(:\"\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^}",
+    "contexts": [
+      ""
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "신규 학생을 위한 오리엔테이션 일정은 어떻게 되나요?",
+    "answer": "제가 알려드릴 수 있는 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "장애 학생을 위한 지원 프로그램은 어떤 것이 마련되어 있나요?",
+    "answer": "제가 알고 있는 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교의 캠퍼스 내 카페나 편의점은 어디에 있나요?",
+    "answer": "제가 알기로는 청운대학교 캠퍼스 내에 카페나 편의점이 어디에 있는지는 알 수 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "해외 유학생을 위한 지원 서비스는 무엇이 있나요?",
+    "answer": "해외 유학생을 위한 지원 서비스는 학교 웹사이트에서 확인하실 수 있습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "공대생에게 추천할 만한 시설이나 프로그램이 있나요?",
+    "answer": "제공된 정보가 없습니다.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "청운대학교 주변에 학생들이 자주 가는 식당이나 카페 추천해 줄 수 있나요?",
+    "answer": "Error: {code: Neo.ClientError.Statement.SyntaxError} {message: Invalid input 'I': expected 'FOREACH', 'ALTER', 'ORDER BY', 'CALL', 'USING PERIODIC COMMIT', 'CREATE', 'LOAD CSV', 'START DATABASE', 'STOP DATABASE', 'DEALLOCATE', 'DELETE', 'DENY', 'DETACH', 'DROP', 'DRYRUN', 'FINISH', 'GRANT', 'INSERT', 'LIMIT', 'MATCH', 'MERGE', 'NODETACH', 'OFFSET', 'OPTIONAL', 'REALLOCATE', 'REMOVE', 'RENAME', 'RETURN', 'REVOKE', 'ENABLE SERVER', 'SET', 'SHOW', 'SKIP', 'TERMINATE', 'UNWIND', 'USE' or 'WITH' (line 1, column 1 (offset: 0))\n\"I'm sorry, I can't help with that question.\"\n ^}",
+    "contexts": [
+      ""
+    ],
+    "ground_truths": [
+      ""
+    ]
+  }
+]

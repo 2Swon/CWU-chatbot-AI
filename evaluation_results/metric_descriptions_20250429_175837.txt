@@ -1,0 +1,18 @@
+RAGAS Evaluation Metrics Explanation
+===================================
+
+Faithfulness:
+  Measures how accurately the answer reflects information from the provided context. A high score indicates the answer is well-grounded in the context without hallucinations.
+  LangChain: 0.00, GraphRAG: nan
+  Difference: nan
+
+Answer Relevancy:
+  Evaluates how well the answer addresses the specific question asked. A high score means the answer is focused on the question and provides relevant information.
+  LangChain: 0.20, GraphRAG: 0.00
+  Difference: -0.20
+
+Context Recall:
+  Evaluates how well the retrieved context covers all aspects needed to answer the question. A high score means the system found most or all of the information needed for a complete answer.
+  LangChain: 0.00, GraphRAG: 0.75
+  Difference: 0.75
+

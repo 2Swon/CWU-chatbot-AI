@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What facilities are available on Chungwoon University's campus in terms of libraries and study areas?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Can you describe the main differences between the campus locations of Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the most popular departments at Chungwoon University, and what unique programs do they offer?",
+    "answer": "죄송합니다. 질문을 처리하는 동안 오류가 발생했습니다.",
+    "contexts": [
+      "",
+      ""
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University support interdisciplinary studies among its departments?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the procedure for applying to undergraduate programs at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Does Chungwoon University offer any accelerated programs for students who want to graduate early?",
+    "answer": "청운대학교는 학생들이 조기 졸업을 할 수 있는 프로그램을 제공합니다. 추가적인 세부 사항이나 조건에 대해서는 학교의 학사 안내를 참고하시거나 학사 담당 부서에 문의해 보시기 바랍니다. 다른 질문이 있으시면 언제든지 물어보세요!",
+    "contexts": [
+      "청운대학교는 학생들이 조기 졸업을 할 수 있는 프로그램을 제공합니다. 추가적인 세부 사항이나 조건에 대해서는 학교의 학사 안내를 참고하시거나 학사 담당 부서에 문의해 보시기 바랍니다.",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What kind of academic calendar does Chungwoon University have, and when are the major breaks during the school year?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University assist students who are struggling academically?",
+    "answer": "청운대학교는 학업적으로 어려움을 겪는 학생들을 지원하기 위해 학생들의 수업 피드백을 수집하고 이를 수업 개선에 활용합니다. 이러한 피드백은 교수님의 업적 평가와 다음 학기 수업 개설에 중요한 자료로 사용되며, 학과 및 대학 전체의 수업 질을 높이는 데 기여합니다. 현재 제공된 정보로는 이 외의 구체적인 지원 프로그램이나 서비스에 대한 정보는 부족합니다. 다른 질문이 있으시면 말씀해 주세요.",
+    "contexts": [
+      "청운대학교는 학생들이 학업적으로 어려움을 겪을 때, 수업 진행에 대한 학생들의 피드백을 확인하여 이를 수업 개선 정보로 활용합니다. 또한, 이러한 피드백은 교수님의 업적 평가 및 다음 학기 수업 개설에 중요한 자료로 활용되며, 학과 및 대학 전체의 수업 질을 높이는 데 기여합니다.",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What career services are available to Chungwoon University students approaching graduation?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there mentorship programs available for new students at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University provide support for students with disabilities?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the process for obtaining a student ID at Chungwoon University, and what benefits come with it?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How are dormitories at Chungwoon University allocated to first-year students?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the parking facilities like at Chungwoon University for both students and faculty?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there any student clubs or organizations related to sports or outdoor activities at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does the on-campus dining at Chungwoon University accommodate students with dietary restrictions?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What opportunities are there for students to engage in volunteer activities through Chungwoon University?",
+    "answer": "청운대학교 학생들은 다양한 봉사활동 기회를 통해 사회에 기여할 수 있습니다. 학생들은 기본교육으로 1~2주차에 사회봉사 소양교육 및 안전교육을 반드시 이수해야 하며, 학기 중에는 팀별로 사회봉사 소감 나누기 및 수퍼비전에 참여하게 됩니다. 또한, 재학 기간 동안 최소 40시간 이상의 봉사활동을 수행해야 합니다. \n\n이 외에 추가적인 정보가 필요하시면 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "청운대학교 학생들은 다양한 봉사활동 기회를 통해 사회에 기여할 수 있습니다. 학생들은 기본교육으로 1~2주차에 사회봉사 소양교육 및 안전교육을 반드시 이수해야 하며, 학기 중에는 팀별로 사회봉사 소감 나누기 및 수퍼비전에 참여하게 됩니다. 또한, 재학 기간 동안 최소 40시간 이상의 봉사활동을 수행해야 합니다.",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Does Chungwoon University offer shuttle services between different campus locations or residence areas?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University ensure student safety on campus, particularly during late hours?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What kinds of events or traditions are unique to student life at Chungwoon University?",
+    "answer": "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+    "contexts": [
+      "현재 이 질문에 대한 정보가 부족합니다. 다른 질문을 해주시겠어요?",
+      "{}"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  }
+]

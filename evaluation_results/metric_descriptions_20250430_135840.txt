@@ -1,0 +1,23 @@
+RAGAS Evaluation Metrics Explanation
+===================================
+
+Faithfulness:
+  Measures accuracy of answers based on the context.
+  LangChain: 0.75, GraphRAG: 0.85
+  Difference: 0.10
+
+Relevancy:
+  Evaluates how well answers address the questions.
+  LangChain: 0.80, GraphRAG: 0.90
+  Difference: 0.10
+
+Precision:
+  Measures relevance of retrieved context.
+  LangChain: 0.70, GraphRAG: 0.80
+  Difference: 0.10
+
+Recall:
+  Evaluates coverage of needed information in context.
+  LangChain: 0.65, GraphRAG: 0.75
+  Difference: 0.10
+

@@ -1,0 +1,13 @@
+RAGAS Evaluation Metrics Explanation
+===================================
+
+Answer Relevancy:
+  Evaluates how well the answer addresses the specific question asked. A high score means the answer is focused on the question and provides relevant information.
+  LangChain: 0.18, GraphRAG: 0.00
+  Difference: -0.18
+
+Context Recall:
+  Evaluates how well the retrieved context covers all aspects needed to answer the question. A high score means the system found most or all of the information needed for a complete answer.
+  LangChain: 0.00, GraphRAG: 1.00
+  Difference: 1.00
+

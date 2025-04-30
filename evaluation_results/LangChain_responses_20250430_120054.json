@@ -1,0 +1,202 @@
+[
+  {
+    "question": "What facilities are available on Chungwoon University's campus in terms of libraries and study areas?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Can you describe the main differences between the campus locations of Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the most popular departments at Chungwoon University, and what unique programs do they offer?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University support interdisciplinary studies among its departments?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the procedure for applying to undergraduate programs at Chungwoon University?",
+    "answer": "Error: {code: Neo.ClientError.Statement.SyntaxError} {message: Variable `DepartmentTransfer` not defined (line 2, column 8 (offset: 202))\n\"RETURN DepartmentTransfer.detail\"\n        ^}",
+    "contexts": [
+      ""
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Does Chungwoon University offer any accelerated programs for students who want to graduate early?",
+    "answer": "Chungwoon University does not offer any accelerated programs for students who want to graduate early.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What kind of academic calendar does Chungwoon University have, and when are the major breaks during the school year?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University assist students who are struggling academically?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What career services are available to Chungwoon University students approaching graduation?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there mentorship programs available for new students at Chungwoon University?",
+    "answer": "There are no mentorship programs available for new students at Chungwoon University.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University provide support for students with disabilities?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What is the process for obtaining a student ID at Chungwoon University, and what benefits come with it?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How are dormitories at Chungwoon University allocated to first-year students?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What are the parking facilities like at Chungwoon University for both students and faculty?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Are there any student clubs or organizations related to sports or outdoor activities at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does the on-campus dining at Chungwoon University accommodate students with dietary restrictions?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What opportunities are there for students to engage in volunteer activities through Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "Does Chungwoon University offer shuttle services between different campus locations or residence areas?",
+    "answer": "Chungwoon University does not offer shuttle services between different campus locations or residence areas.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "How does Chungwoon University ensure student safety on campus, particularly during late hours?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  },
+  {
+    "question": "What kinds of events or traditions are unique to student life at Chungwoon University?",
+    "answer": "I don't know the answer.",
+    "contexts": [
+      "Neo4j Graph Database"
+    ],
+    "ground_truths": [
+      ""
+    ]
+  }
+]
