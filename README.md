@@ -15,8 +15,8 @@
 - **백엔드**: FastAPI, Python 3.9+
 - **데이터베이스**: Neo4j (그래프 데이터베이스)
 - **AI/ML**: LangChain, OpenAI API, RAGAS
-- **프론트엔드**: HTML/CSS/JavaScript, Bootstrap 5, Chart.js
-- **기타**: Docker (컨테이너화)
+- **프론트엔드**: streamlit
+- **기타**: Docker, AWS EC2
 
 ## 접근 방식 비교
 
